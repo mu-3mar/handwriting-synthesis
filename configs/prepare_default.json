@@ -1,0 +1,11 @@
+{
+  "dataset": {
+    "iam_home": "dataset",
+    "provider_name": "iam",
+    "provider_args": ["9500", "0", "dataset"],
+    "max_len": 700
+  },
+  "output": {
+    "prepared_data_dir": "data"
+  }
+}

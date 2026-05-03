@@ -1,0 +1,27 @@
+{
+  "dataset": {
+    "prepared_data_dir": "data",
+    "charset_path": ""
+  },
+  "training": {
+    "batch_size": 32,
+    "epochs": 50,
+    "sampling_interval": 300,
+    "clip1": 0,
+    "clip2": 0,
+    "learning_rate": 0.00005,
+    "max_grad_norm": 1.0,
+    "sample_every_epochs": 1,
+    "sample_biases": "0,0.5,1",
+    "unconditional": false,
+    "device": "auto"
+  },
+  "output": {
+    "runs_dir": "runs",
+    "model_dir": "checkpoints",
+    "samples_dir": "samples"
+  },
+  "model": {
+    "note": "Model architecture and behavior remain unchanged."
+  }
+}

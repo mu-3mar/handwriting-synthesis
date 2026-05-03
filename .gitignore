@@ -1,0 +1,46 @@
+# ================== Runtime Outputs ==================
+data/
+dataset/
+checkpoints/
+checkpoints_new/
+runs/
+samples/
+results/
+logs/
+models/
+
+# ================== Dataset / Artifacts ==================
+datasets/
+*.h5
+charset.txt
+*.zip
+
+# ================== Python / Environment ==================
+venv/
+.python-version
+__pycache__/
+*.pyc
+
+# ================== IDE ==================
+.idea/
+
+# ================== Logs ==================
+*.log
+
+# ================== Generated Images ==================
+*.png
+*.jpg
+!/results/**/*.png
+
+# ================== Legacy Frontend Artifacts ==================
+my-app/public/
+my-app/package-lock.json
+
+# ================== checkpoints ==================
+checkpoints/
+checkpoints_new/
+runs/
+samples/
+results/
+logs/
+models/
