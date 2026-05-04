@@ -1,5 +1,6 @@
 # ================== Runtime Outputs ==================
 data/
+!src/handwriting_synthesis/data
 dataset/
 checkpoints/
 checkpoints_new/
